@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+.gitignore
+Portfolio.html
+resources/
+style.css
