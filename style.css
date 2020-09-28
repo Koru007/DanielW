@@ -106,6 +106,9 @@ header ul li a {
 header.sticky ul li a {
     color: #111111;
 }
+header.sticky ul li a img{
+
+}
 
 .heading {
     width: 100%;
@@ -135,6 +138,10 @@ header.sticky ul li a {
 
 .w50 {
     min-width: 50%;
+}
+
+.w50 img {
+    border-radius: 5px;
 }
 
 img {
@@ -283,7 +290,7 @@ img {
 
 .formBox form input[type="submit"] {
     max-width: 100px;
-    background: #2196f3;
+    background: #002325;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -324,7 +331,7 @@ img {
 
 .contactInfoBox .box .text h3 {
     font-weight: 500;
-    color: #2196f3;
+    color: #00595e;
     margin-bottom: 0;
 }
 
@@ -431,7 +438,7 @@ img {
         max-width: calc(100% - 20px);
         padding: 40px 20px;
         margin: 10px;
-        background: #2196f3;
+        /*background: #2196f3;*/
     }
 
     .testimonial .content .testimonialBox h3 {
