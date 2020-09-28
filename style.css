@@ -164,6 +164,7 @@ img {
     max-width: 340px;
     margin: 20px;
     text-align: center;
+    border-radius: 3px;
     transition: 0.5s;
 }
 
@@ -183,17 +184,19 @@ img {
 
 .work .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .work .content .workBox {
-    width: 50%;
-    padding: 20px;
+    width: 30%;
+    padding: 15px;
 }
+
 
 .work .content .workBox img {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .testimonial {
@@ -210,7 +213,8 @@ img {
     max-width: calc(50% - 40px);
     padding: 60px 40px;
     margin: 20px;
-    background: cornflowerblue;
+    background: #181818;
+    border-radius: 5px;
 }
 
 .testimonial .content .testimonialBox p {
@@ -221,8 +225,9 @@ img {
 }
 
 .testimonial .content .testimonialBox h3 {
-    margin-top: 40px;
-    text-align: end;
+    /* margin-top: 40px; */
+    margin-bottom: 25px;
+    /* text-align: end; */
     color: #fff;
     font-weight: 600;
     font-size: 20px;
@@ -445,18 +450,11 @@ img {
         z-index: 1000;
     }
 
-    .banner{
-        position: relative;
-        min-height: 100vh;
-        background-size: cover;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 150px 20px 100px;
-        background: url("resources/loop_small.png") right;
+    .banner {
+        background: url("resources/loop_small.png") right no-repeat;
     }
 
-    section{
-        padding: 100px 20px  ;
+    section {
+        padding: 100px 20px;
     }
 }

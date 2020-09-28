@@ -6,19 +6,20 @@
     <title>Daniel Wojda | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="scripts.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon_s.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
 <header>
-    <a href="#" class="logo">Portfolio</a>
+    <img src="resources/Vector.svg" alt="logo">
     <div class="toggle" onclick="toggleMenu();"></div>
     <ul class="menu">
         <li><a href="#home" onclick="toggleMenu();">Home</a></li>
         <li><a href="#about" onclick="toggleMenu();">About</a></li>
-        <li><a href="#service" onclick="toggleMenu();">Service</a></li>
-        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
-        <li><a href="#testimonial" onclick="toggleMenu();">Test</a></li>
+        <li><a href="#service" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Education & Employment History</a></li>
         <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
     </ul>
 </header>
@@ -55,43 +56,54 @@
 </section>
 <section class="services" id="service">
     <div class="heading white">
-        <h2>Our services</h2>
-        <p>Vel mi at dignissim enim, congue dignissim urna ut quis.</p>
+        <h2>My Skills</h2>
     </div>
     <div class="content">
         <div class="servicesBox">
-            <img src="resources/icon1.png" alt="pic_1">
-            <h2>Web Design</h2>
+            <img src="resources/java.png" alt="pic_1">
+            <h2>Java EE</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
         <div class="servicesBox">
-            <img src="resources/icon2.png" alt="pic_2">
-            <h2>Web Design</h2>
+            <img src="resources/hiber.png" alt="pic_2">
+            <h2>Hibernate</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
         <div class="servicesBox">
-            <img src="resources/icon3.png" alt="pic_3">
-            <h2>Web development</h2>
+            <img src="resources/spring.png" alt="pic_3">
+            <h2>Spring</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
         <div class="servicesBox">
-            <img src="resources/icon4.png" alt="pic_4">
-            <h2>Photography</h2>
+            <img src="resources/server.png" alt="pic_4">
+            <h2>SQL</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
         <div class="servicesBox">
-            <img src="resources/icon5.png" alt="pic_5">
-            <h2>Content Writing</h2>
+            <img src="resources/front.png" alt="pic_5">
+            <h2>Front End</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
         <div class="servicesBox">
-            <img src="resources/icon6.png" alt="pic_6">
-            <h2>Video Editing</h2>
+            <img src="resources/figma_1.png" alt="pic_6">
+            <h2>Figma UI/UX</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
+                varius.</p>
+        </div>
+        <div class="servicesBox">
+            <img src="resources/git.png" alt="pic_6">
+            <h2>Git</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
+                varius.</p>
+        </div>
+        <div class="servicesBox">
+            <img src="resources/linux.png" alt="pic_6">
+            <h2>Linux</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
                 varius.</p>
         </div>
@@ -99,46 +111,80 @@
 </section>
 <section class="work" id="work">
     <div class="heading">
-        <h2>Our Latest Work</h2>
+        <h2>My Latest Projects</h2>
         <p>Vel mi at dignissim enim, congue dignissim urna ut quis.</p>
     </div>
     <div class="content">
         <div class="workBox">
-            <img src="resources/product1.jpg" alt="work_1">
+            <a href="#">
+                <img src="resources/library.png" alt="work_1">
+            </a>
         </div>
         <div class="workBox">
-            <img src="resources/product1.jpg" alt="work_1">
+            <a href="">
+                <img src="resources/javaFx.png" alt="work_1">
+            </a>
         </div>
         <div class="workBox">
-            <img src="resources/product1.jpg" alt="work_1">
+            <a href="#">
+                <img src="resources/newspaper.png" alt="work_1">
+            </a>
         </div>
         <div class="workBox">
-            <img src="resources/product1.jpg" alt="work_1">
+            <a href="#">
+                <img src="resources/corpfood.png" alt="work_1">
+            </a>
         </div>
         <div class="heading">
-            <a href="#" class="btn">View More</a>
+            <a href="https://github.com/koru007" target="_blank" class="btn btn-primary">More on my &nbsp <i
+                    class="fa fa-github"></i>
+            </a>
+        </div>
+    </div>
+    <br><br>
+    <div class="heading">
+        <h2>My UI/UX Projects</h2>
+        <p>Vel mi at dignissim enim, congue dignissim urna ut quis.</p>
+    </div>
+    <div class="content">
+        <div class="workBox">
+            <img src="resources/project.png" alt="work_1">
+        </div>
+        <div class="workBox">
+            <img src="resources/nekken.png" alt="work_1">
+        </div>
+        <div class="workBox">
+            <img src="resources/samsung.png" alt="work_1">
+        </div>
+        <div class="workBox">
+            <img src="resources/ecommerce.png" alt="work_1">
+        </div>
+        <div class="heading">
+            <a href="https://www.behance.net/danielwojda1" target="_blank" class="btn btn-primary">Find my work on &nbsp<i
+                    class="fa fa-behance"></i></a>
         </div>
     </div>
 </section>
 <section class="testimonial" id="testimonial">
     <div class="heading">
-        <h2>Testimonial</h2>
+        <h2>Education & Employment History</h2>
         <p>Vel mi at dignissim enim, congue dignissim urna ut quis.</p>
     </div>
     <div class="content">
         <div class="testimonialBox">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
-                vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
-                fermentum dui faucibus in ornare quam viverra orci</p>
-            <h3>Daniel Kowalski<br><span>Creative Person</span></h3>
+            <h3>Education &nbsp<i class="fa fa-graduation-cap"></i><br><br><span>Wroclaw School of Information Technology „Horyzont”<br>October 2018 - Present</span>
+            </h3>
+            <p>Computer science with a specialization in Java EE Business Applications.
+                <br> Education level: Engineer
+                <br> Type of studies: Extramural</p>
         </div>
         <div class="testimonialBox">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
-                lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,
-                vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque
-                fermentum dui faucibus in ornare quam viverra orci</p>
-            <h3>Daniel Kowalski<br><span>Creative Person</span></h3>
+            <h3>Employment History &nbsp<i class="fa fa-briefcase"></i><br><br><span>Web Developer, Store-open sp z.o.o, Warszawa<br>
+                September 2018 - February 2020</span>
+            </h3>
+            <p>Work in an international team in a dynamically developing company. Creating e-commerce projects on the
+                Prestashop platform. Creating the image of the company and the product. Direct contact with the customer
+                and technical support related to the product.</p>
         </div>
     </div>
 </section>
