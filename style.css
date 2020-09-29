@@ -51,6 +51,11 @@ section {
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #00595e;
 }
 
 header {
@@ -294,6 +299,10 @@ img {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: 0.5s;
+}
+.formBox form input[type="submit"]:hover{
+    background: #00595e;
 }
 
 .contactInfo {
