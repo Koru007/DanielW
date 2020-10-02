@@ -28,7 +28,7 @@
         <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
     </ul>
 </header>
-<section class="banner" id="home">
+<section class="banner">
     <div class="textBox">
         <h2>Hi, I'm <br><span>Daniel Wojda</span></h2>
         <h3>Junior Fullstack Developer</h3>
@@ -67,56 +67,38 @@
         <div class="servicesBox">
             <img src="resources/java.png" alt="pic_1">
             <h2>Java EE</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/hiber.png" alt="pic_2">
             <h2>Hibernate</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/spring.png" alt="pic_3">
             <h2>Spring</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/server.png" alt="pic_4">
             <h2>SQL</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/front.png" alt="pic_5">
             <h2>Front End</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/figma_1.png" alt="pic_6">
             <h2>Figma UI/UX</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
-        </div>
-        <div class="servicesBox">
-            <img src="resources/git.png" alt="pic_6">
-            <h2>Git</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
         <div class="servicesBox">
             <img src="resources/ecom.png" alt="pic_6">
             <h2>E-commerce</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
+        </div>
+        <div class="servicesBox">
+            <img src="resources/git.png" alt="pic_6">
+            <h2>Git</h2>
         </div>
         <div class="servicesBox">
             <img src="resources/linux.png" alt="pic_6">
             <h2>Linux</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero, euismod vel orci faucibus dolor
-                varius.</p>
         </div>
     </div>
 </section>
@@ -173,10 +155,16 @@
             <img src="resources/samsung.png" alt="work_1">
         </div>
         <div class="workBox">
+            <img src="resources/travel2.png" alt="work_1">
+        </div>
+        <div class="workBox">
             <img src="resources/uiBank.png" alt="work_1">
         </div>
         <div class="workBox">
             <img src="resources/ecommerce.png" alt="work_1">
+        </div>
+        <div class="workBox">
+            <img src="resources/IW.png" alt="work_1">
         </div>
         <div class="heading">
             <a href="https://www.behance.net/danielwojda1" target="_blank" class="btn btn-primary">Find my work on &nbsp<i
@@ -199,12 +187,28 @@
                 <br> Type of studies: Extramural</p>
         </div>
         <div class="testimonialBox">
-            <h3>Employment History &nbsp<i class="fa fa-briefcase"></i><br><br><span>Web Developer, Store-open sp z.o.o, Warszawa<br>
+            <h3>Employment History &nbsp<i class="fa fa-briefcase"></i><br><br><span>Web Developer, Store-open sp z.o.o, Warsaw<br>
                 September 2018 - February 2020</span>
             </h3>
             <p>Work in an international team in a dynamically developing company. Creating e-commerce projects on the
                 Prestashop platform. Creating the image of the company and the product. Direct contact with the customer
                 and technical support related to the product.</p>
+        </div>
+        <div class="testimonialBox">
+            <h3>Courses &nbsp<i
+                    class="fa fa-laptop"></i><br><br><span>Java from scratch, Software Development Academy<br>
+                February 2018 - July 2018</span>
+            </h3>
+            <p>Stationary course in the form of programming workshops.<br>
+                General scope:<br><br>
+            </p>
+            <ul>
+                <li>Introduction to JAVA programming - Java basics, design patterns, TDD<br></li>
+                <li>Databases - relational and non-relational databases, JDBC, Hibernate<br></li>
+                <li>Server-side programming - introduction to servers, basics of HTML, CSS, JSP and Servlets, Spring<br>
+                </li>
+                <li>Summary project - Scrum methodology, group project</li>
+            </ul>
         </div>
     </div>
 </section>
@@ -247,11 +251,11 @@
             </div>
         </div>
         <div class="formBox">
-            <form>
+            <form action="https://formspree.io/f/xjvpkdoq" method="POST">
                 <h3>Message Info</h3>
-                <input type="text" name="" placeholder="Full Name">
-                <input type="email" name="" placeholder="Email">
-                <textarea placeholder="Your Message"></textarea>
+                <label><input type="text" name="Full Name" placeholder="Full Name"></label>
+                <label><input type="email" name="Email" placeholder="Email"></label>
+                <label><textarea name="Message" placeholder="Your Message"></textarea></label>
                 <input class="btn" type="submit" value="Send">
             </form>
         </div>
