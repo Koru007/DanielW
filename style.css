@@ -54,7 +54,7 @@ section {
     transition: 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
     background: #00595e;
 }
 
@@ -111,7 +111,8 @@ header ul li a {
 header.sticky ul li a {
     color: #111111;
 }
-header.sticky ul li a img{
+
+header.sticky ul li a img {
 
 }
 
@@ -173,6 +174,7 @@ img {
     padding: 40px 20px;
     background: #222;
     color: white;
+    min-width: 220px;
     max-width: 340px;
     margin: 20px;
     text-align: center;
@@ -203,6 +205,11 @@ img {
 .work .content .workBox {
     width: 30%;
     padding: 15px;
+    transition: 0.1s;
+}
+
+.work .content .workBox img:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -217,7 +224,7 @@ img {
 
 .testimonial .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -231,9 +238,18 @@ img {
 
 .testimonial .content .testimonialBox p {
     color: #fff;
-    font-style: italic;
     font-size: 16px;
     font-weight: 300;
+}
+
+.testimonial .content .testimonialBox li{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.testimonialBox .data{
+    font-size: 5px;
 }
 
 .testimonial .content .testimonialBox h3 {
@@ -282,6 +298,7 @@ img {
     background: #222;
     color: #fff;
     resize: none;
+    width: 100%;
 }
 
 .formBox form textarea {
@@ -301,7 +318,8 @@ img {
     letter-spacing: 2px;
     transition: 0.5s;
 }
-.formBox form input[type="submit"]:hover{
+
+.formBox form input[type="submit"]:hover {
     background: #00595e;
 }
 
