@@ -17,20 +17,28 @@
 </head>
 <body>
 <header>
-    <img src="resources/Vector_1.svg" alt="logo">
+   <a href="#home"><img src="resources/Vector_1.svg" alt="logo"></a>
     <div class="toggle" onclick="toggleMenu();"></div>
     <ul class="menu">
-        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
         <li><a href="#about" onclick="toggleMenu();">O mnie</a></li>
         <li><a href="#service" onclick="toggleMenu();">Umiejętności</a></li>
         <li><a href="#work" onclick="toggleMenu();">Projekty</a></li>
         <li><a href="#testimonial" onclick="toggleMenu();">Edukacja & Praca</a></li>
         <li><a href="#contact" onclick="toggleMenu();">Kontakt</a></li>
+        <li>
+            <div class="dropdown center">
+                <a href="#"><i class="fa fa-language"></i>&nbsp<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content center">
+                    <a href="#">Polski</a>
+                    <a href="./Portfolio.html">English</a>
+                </div>
+            </div>
+        </li>
     </ul>
 </header>
-<section class="banner">
+<section class="banner" id="home">
     <div class="textBox">
-        <h2>Cześć nazywam się<br><span>Daniel Wojda</span></h2>
+        <h2>Cześć, nazywam się<br><span>Daniel Wojda</span></h2>
         <h3>Junior Fullstack Developer</h3>
         <a href="#about" class="btn">O mnie</a>
     </div>
@@ -246,7 +254,7 @@
             </div>
         </div>
         <div class="formBox">
-            <form action="https://formspree.io/f/xjvpkdoq" method="POST">
+            <form action="https://formspree.io/f/mqkgaogr" method="POST">
                 <label><input type="text" name="Full_Name_PL" placeholder="Imię"></label>
                 <label><input type="email" name="Email" placeholder="Email"></label>
                 <label><textarea name="Message" placeholder="Twoja Wiadomość"></textarea></label>

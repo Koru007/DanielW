@@ -17,18 +17,26 @@
 </head>
 <body>
 <header>
-    <img src="resources/Vector_1.svg" alt="logo">
+    <a href="#home"><img src="resources/Vector_1.svg" alt="logo"></a>
     <div class="toggle" onclick="toggleMenu();"></div>
     <ul class="menu">
-        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
         <li><a href="#about" onclick="toggleMenu();">About</a></li>
         <li><a href="#service" onclick="toggleMenu();">Skills</a></li>
         <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
         <li><a href="#testimonial" onclick="toggleMenu();">Education & Employment History</a></li>
         <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <li>
+            <div class="dropdown center">
+                <a href="#"><i class="fa fa-language"></i>&nbsp<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content center">
+                    <a href="#">English</a>
+                    <a href="./Portfolio_pl.html">Polski</a>
+                </div>
+            </div>
+        </li>
     </ul>
 </header>
-<section class="banner">
+<section class="banner" id="home">
     <div class="textBox">
         <h2>Hi, I'm <br><span>Daniel Wojda</span></h2>
         <h3>Junior Fullstack Developer</h3>
