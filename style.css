@@ -518,6 +518,10 @@ img {
     .contactInfo {
         margin: 20px 0;
     }
+
+    .w50 img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
