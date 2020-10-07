@@ -121,7 +121,7 @@ header ul li a {
     position: absolute;
     min-width: 50px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(165, 165, 165);
+    background-color: #222;
     border-radius: 2px;
     z-index: 1000;
 }
@@ -137,7 +137,7 @@ header ul li a {
 }
 
 .dropdown-content a:hover, header.sticky .dropdown-content a:hover {
-    color: #111111;
+    color: #999;
 }
 
 .dropdown:hover .dropdown-content, .dropdown:active .dropdown-content {
