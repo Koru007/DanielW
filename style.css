@@ -261,17 +261,17 @@ img {
     border-radius: 5px;
 }
 
-.testimonial {
+.edu {
     background: #efefef;
 }
 
-.testimonial .content {
+.edu .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.testimonial .content .testimonialBox {
+.edu .content .eduBox {
     max-width: calc(50% - 40px);
     padding: 60px 40px;
     margin: 20px;
@@ -279,27 +279,27 @@ img {
     border-radius: 5px;
 }
 
-.testimonial .content .testimonialBox p {
+.edu .content .eduBox p {
     color: #fff;
     font-size: 16px;
     font-weight: 300;
 }
 
-.testimonialBox ul {
+.eduBox ul {
     margin-left: 20px;
 }
 
-.testimonial .content .testimonialBox li {
+.edu .content .eduBox li {
     color: #fff;
     font-size: 16px;
     font-weight: 300;
 }
 
-.testimonialBox .data {
+.eduBox .data {
     font-size: 5px;
 }
 
-.testimonial .content .testimonialBox h3 {
+.edu .content .eduBox h3 {
     /* margin-top: 40px; */
     margin-bottom: 25px;
     /* text-align: end; */
@@ -309,7 +309,7 @@ img {
     line-height: 1em;
 }
 
-.testimonial .content .testimonialBox h3 span {
+.edu .content .eduBox h3 span {
     font-size: 14px;
     font-weight: 400;
 }
@@ -508,14 +508,14 @@ img {
         padding: 10px;
     }
 
-    .testimonial .content .testimonialBox {
+    .edu .content .eduBox {
         max-width: calc(100% - 20px);
         padding: 40px 20px;
         margin: 10px;
         /*background: #2196f3;*/
     }
 
-    .testimonial .content .testimonialBox h3 {
+    .edu .content .eduBox h3 {
         margin-top: 20px;
     }
 
